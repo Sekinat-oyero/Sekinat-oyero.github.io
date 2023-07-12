@@ -860,24 +860,6 @@ a:hover {
   background-color: #0078ff;
 }
 
-.tooltip {
-  position: absolute;
-  top: -40px;
-  background: var(--raw-seinna);
-  min-width: max-content;
-  color: var(--white);
-  font-size: 15px;
-  font-weight: var(--fw-700);
-  padding: 5px 10px;
-  border-radius: var(--radius-4);
-  box-shadow: var(--shadow-1);
-  transform: translateY(-10px);
-  opacity: 0;
-  pointer-events: none;
-  transition: var(--transition-1);
-  z-index: 1;
-}
-
 .skills { padding-block: var(--section-padding); }
 
 .skills-content { margin-bottom: 50px; }
@@ -959,7 +941,23 @@ a:hover {
   opacity: 1;
 }
 
-
+.tooltip {
+  position: absolute;
+  top: -40px;
+  background: var(--raw-seinna);
+  min-width: max-content;
+  color: var(--white);
+  font-size: 15px;
+  font-weight: var(--fw-700);
+  padding: 5px 10px;
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-1);
+  transform: translateY(-10px);
+  opacity: 0;
+  pointer-events: none;
+  transition: var(--transition-1);
+  z-index: 1;
+}
 
 /*--------------------------------------------------------------
 # Services
